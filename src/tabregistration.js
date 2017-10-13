@@ -322,8 +322,9 @@ class tabregistration extends Component {
 	this.setState({txtlending_:false});
 	this.setState({txtavemt_:0});
   this.setState({Txtlendingcompany:''});
+  //this._textInputlendingcompany._root.focus();
 	this._textInputEatery._root.focus();
-	this._textInputlendingcompany._root.focus();
+
 	//this.setState({Txtlocation_: ''});
 
 

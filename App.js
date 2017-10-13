@@ -211,8 +211,9 @@ fetchData(){
 		txtavemt_		    => this.setState({txtavemt_});
     Txtlendingcompany => this.setState({Txtlendingcompany});
 
-			{/*fetch('http://192.168.11.9:8080/payroll/insertinfo.php', {*/}
-			fetch('http://192.168.1.11:8080/payroll/insertinfo.php',{
+
+			{/*fetch('http://192.168.1.11:8080/payroll/insertinfo.php',*/}
+      fetch('http://192.168.1.9:8080/payroll/insertinfo.php',{
 			  method: 'POST',
 			  headers: {
 				'Accept': 'application/json',
@@ -252,8 +253,8 @@ fetchData(){
 
 			x++;
 	}
-	{/*fetch('http://192.168.1.9:8080/payroll/dbconfig.php',{*/}
-		fetch('http://192.168.1.11:8080/payroll/dbconfig.php',{
+		{/*fetch('http://192.168.1.11:8080/payroll/dbconfig.php',{*/}
+	   fetch('http://192.168.1.9:8080/payroll/dbconfig.php',{
         method: 'GET',
         headers: {
         "Accept": "application/json",
